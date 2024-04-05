@@ -8,8 +8,8 @@ const arrayList = document.createElement("ul");
 
 
 for (let i = 0; i < N; i++) {
-    arrayContainer[i] = newArray(100);
-    arrayList.innerHTML += `<li>${i, arrayContainer[i]}</li>`; 
+    arrayContainer[i] = newArray(10);
+    arrayList.innerHTML += `<li><strong>${i}</strong> ${arrayContainer[i]}</li>`; 
     console.log(arrayContainer[i]);
 }
 
