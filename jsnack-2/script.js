@@ -7,10 +7,8 @@ let parola1;
 let parola2;
 do{
     parola1 = prompt("Inserisci una parola");
-    parola2 = prompt("Inserisci un'altra parola");
-
-
+    parola2 = prompt("Inserisci un'altra parola");  
 
 }while(parola1 =="" || parola1 ==null || parola2 =="" || parola2==null);
 
-compare2Words(parola1, parola2);
+console.log(compare2Words(parola1, parola2));

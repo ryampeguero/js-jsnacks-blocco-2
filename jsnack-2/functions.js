@@ -1,11 +1,11 @@
 "use strict"
 function compare2Words(word1, word2){
-    let result = "";
+    let message = "";
     if(word1.length === word2.length){
-        console.log(word1, " ", word2);
+        message = word1 + " "+ word2;
     }else if(word1.length > word2.length){
-        console.log(word1);
+        message = word1;
     }else{
-        console.log(word2)
+        message = word2;
     }
 }   
