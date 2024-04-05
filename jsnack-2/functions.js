@@ -8,4 +8,5 @@ function compare2Words(word1, word2){
     }else{
         message = word2;
     }
+    return message;
 }   
