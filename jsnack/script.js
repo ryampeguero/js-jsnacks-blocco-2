@@ -6,12 +6,8 @@ const N = parseInt(prompt("Quanti array vuoi?"));
 const arrayContainer = [];
 
 for (let i = 0; i < N; i++) {
-    arrayContainer[i] = newArray();
-    for (let j = 0; j < 100; j++) {
-        arrayContainer[i][j] = rndNumb(1,100);
-        
-    }
+    arrayContainer[i] = newArray(100);
     console.log(arrayContainer[i]);
 }
 
-console.log(array);
+console.log(arrayContainer);

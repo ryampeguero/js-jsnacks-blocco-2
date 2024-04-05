@@ -3,7 +3,11 @@ function rndNumb (min, max) {
     return rnd;
 }
 
-function newArray(){
-    const array = [];
+function newArray(size){
+    const array = new Array(size);
+    for (let i = 0; i < size; i++) {
+        array[i] = rndNumb(1, 100);
+        
+    }
     return array;
 }
